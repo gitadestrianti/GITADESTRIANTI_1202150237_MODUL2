@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GITA-DESTRIANTI_1202150237_MODUL2</string>
+    <string-array name="meja_cafe">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+    </string-array>
+</resources>

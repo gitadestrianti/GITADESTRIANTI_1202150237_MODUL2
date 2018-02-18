@@ -1,0 +1,45 @@
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/makanan1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/bananasplit" />
+
+        <TextView
+            android:id="@+id/judulMakanan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/makanan1"
+            android:text="Nama Makanan"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/deskripsiMakanan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judulMakanan1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/makanan1"
+            android:text="Makanan ini adalah" />
+
+    </RelativeLayout>
+
+</FrameLayout>
